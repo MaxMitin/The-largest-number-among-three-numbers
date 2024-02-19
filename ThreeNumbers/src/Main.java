@@ -7,7 +7,7 @@ public class Main {
         int b = secondNumber();
         int c = thirdNumber();
 
-        System.out.println("You've entered these numbers: " + a + ", " + b + ", " + c + "." + "\n" + "Among these numbers the largest number is " + comarisionOfNumbers(a, b, c) + ".");
+        System.out.println("You've entered these numbers: " + a + ", " + b + ", " + c + "." + "\n" + "Among these numbers the largest number is " + comparisionOfNumbers(a, b, c) + ".");
     }
 
     private static int firstNumber() {
@@ -43,7 +43,7 @@ public class Main {
         }catch (Exception e){return thirdNumber();}
     }
 
-    private static int comarisionOfNumbers(int a, int b, int c){
+    private static int comparisionOfNumbers(int a, int b, int c){
 
         int number1 = 0;
         int number2 = 0;
